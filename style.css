@@ -42,7 +42,7 @@ nav a {
 
 .slides {
   display: flex;
-  flex-direction: column; /* 세로 배치 */
+  flex-direction: row; /* 가로 배치 */
   transition: transform 0.8s ease-in-out;
 }
 
@@ -232,6 +232,7 @@ body, p, h2 {
     font-size: 12px;
   }
 }
+
 
 
 
