@@ -33,10 +33,10 @@ nav a {
   display: block;
 }
 .vertical-slideshow {
-  max-width: 600px;       /* 메뉴 폭에 맞춤 */
+  max-width: 450px;       /* 메뉴 폭에 맞춤 */
   margin: 0 auto;
   overflow: hidden;       /* 넘치는 부분 숨김 */
-  height: 500px;          /* 한 장의 높이 */
+  height: 300px;          /* 한 장의 높이 */
   position: relative;
 }
 
@@ -52,7 +52,7 @@ nav a {
 
 .slides img {
   width: 100%;
-  height: 500px;
+  height: 300px;
   object-fit: cover;
   cursor: pointer;        /* 클릭 가능 표시 */
 }
@@ -232,6 +232,7 @@ body, p, h2 {
     font-size: 12px;
   }
 }
+
 
 
 
