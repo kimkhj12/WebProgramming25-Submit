@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let index = 0;
 
   function showSlide() {
-    slides.style.transform = `translateY(-${index * 500}px)`;
+    slides.style.transform = `translateY(-${index * 450}px)`;
   }
 
   function nextSlide() {
@@ -19,3 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(nextSlide, 3000);
 
 });
+
