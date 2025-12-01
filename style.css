@@ -44,7 +44,7 @@ nav a {
   display: flex;
   flex-direction: column; /* 세로 배치 */
   transition: transform 0.8s ease-in-out;
-  margin-top: 100px; /* 메뉴와의 간격 */
+  top: 100px; /* 메뉴와의 간격 */
 }
 
 .slides a {
@@ -233,6 +233,7 @@ body, p, h2 {
     font-size: 12px;
   }
 }
+
 
 
 
