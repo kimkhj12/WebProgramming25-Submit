@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>해킹 기법 - 해킹 역사 박물관</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .logo-title {
+      display: flex;
+      align-items: center;
+      justify-content: center; /* 가운데 정렬 */
+      gap: 10px; /* 로고와 제목 사이 간격 */
+      margin: 20px 0;
+    }
+
+/* 로고 크기 */
+   #site-logo {
+     width: 60px;
+     height: auto;
+   }
+   #site-title {
+     font-family: 'Nanum Pen Script', cursive;
+     font-size: 3.5rem;
+     color: #009988;
+   }
+  #chronicle-title {
+     font-family: 'Nanum Gothic', sans-serif;
+     font-size: 2rem;   /* 필요시 크기 조절 */
+     font-weight: 600;    /* 굵게 */
+     text-align: center;  /* 가운데 정렬 */
+     margin: 20px 0;
+    }
+    /* 추가된 스타일 */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2열 */
+      gap: 20px; /* 이미지 간격 */
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px; /* 선택: 모서리 둥글게 */
+    }
+  </style>
+</head>
+<body>
+  <header>
+     <!-- 사이트 제목 추가 -->
+  <div class="logo-title">
+  <img id="site-logo" src="images/musium.png" alt="로고">
+   <a id="site-title" href="index.html">해킹 역사 박물관</a>
+   </div>
+    <h1 id="chronicle-title">미디어관</h1>
+   
+  </header>
+
+  <main>
+  <div class="image-grid">
+    <a href="movie.html">
+      <img src="images/2fa.png" alt="영화">
+    </a>
+    <a href="drama.html">
+      <img src="images/idsips.png" alt="드라마">
+    </a>
+    <a href="game.html">
+      <img src="images/ai.png" alt="게임">
+    </a>
+    <a href="hackerart.html">
+      <img src="images/block.png" alt="해커 예술">
+    </a>
+  </div>
+ </main>
+
+  <footer>
+    <p>© <time datetime="2025">2025</time> 해킹 역사 박물관</p>
+    <p><a href="index.html">메인 홈페이지로 돌아가기</a></p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
