@@ -3,12 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>1960s</title>
+  <!-- 구글 폰트 불러오기 -->
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Nanum Gothic', sans-serif;
       margin: 0;
       padding: 20px;
       background: #f4f4f4;
+    }
+    h1 {
+      font-family: 'Nanum Gothic', sans-serif;
+      text-align: center;
     }
     .container {
       display: grid;
@@ -16,25 +22,42 @@
       gap: 20px;
     }
     .card {
-      background: white;
       border-radius: 8px;
       padding: 20px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     .card h3 {
       margin-top: 0;
-      font-size: 18px;
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 25px;
     }
     .card p {
-      font-size: 14px;
-      color: #555;
+      font-family: 'Nanum Myeongjo', serif;
+      font-size: 16px;
+      color: #333;
     }
-    /* 반응형: 화면이 좁아지면 2열 → 1열 */
+    /* 카드별 색상 */
+    .card:nth-child(1) { background: #dbeafe; } /* 연한 블루 */
+    .card:nth-child(2) { background: #fef9c3; } /* 연한 노랑 */
+    .card:nth-child(3) { background: #fed7aa; } /* 연한 주황 */
+    .card:nth-child(4) { background: #bbf7d0; } /* 연한 초록 */
+
+    /* 반응형 */
     @media (max-width: 900px) {
       .container { grid-template-columns: repeat(2, 1fr); }
     }
     @media (max-width: 500px) {
       .container { grid-template-columns: 1fr; }
+    }
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+    footer a {
+      color: #333;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -58,10 +81,9 @@
       <p>원하는 내용을 자유롭게 작성하세요.</p>
     </div>
   </div>
-   <footer>
-      <a href="blog.html">← 목록으로 돌아가기</a>
-     <p>© <time datetime="2025">2025</time> 해킹 역사 박물관</p>
-    </footer>
+  <footer>
+    <a href="blog.html">← 목록으로 돌아가기</a>
+    <p>© <time datetime="2025">2025</time> 해킹 역사 박물관</p>
+  </footer>
 </body>
-
 </html>
